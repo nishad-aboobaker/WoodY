@@ -1,0 +1,716 @@
+.brand-name {
+    color: #AB7442 !important;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nav-container {
+    height: 65px;
+}
+
+.nav-bar {
+    padding-left: 80px;
+}
+
+.nav-home {
+    color: #AB7442 !important;
+    font-size: large;
+    font-weight: 400;
+}
+
+.nav-list {
+    font-size: medium;
+    color: rgb(53, 53, 53) !important;
+}
+
+.nav-list-h {
+    color: #AB7442 !important;
+}
+
+.nav-list:hover {
+    color: #AB7442 !important;
+}
+
+.pa {
+    filter: brightness(.3);
+}
+
+.box-para {
+    width: 75%;
+}
+
+.box-para h1 {
+    font-weight: bold;
+}
+
+.box-card h1 {
+    padding: 0 20px;
+    color: #AB7442;
+}
+
+.box-card h6 {
+    padding: 0 20px;
+    font-size: small;
+}
+
+.box-icon {
+    color: #AB7442;
+    font-size: 55px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.six-card {
+    text-align: center;
+}
+
+.six-card a {
+    color: #AB7442;
+    text-decoration: none;
+}
+
+.six-card span {
+    color: #AB7442;
+}
+
+.card-img img {
+    width: 100%;
+}
+
+.card-img img {
+    transition: .8s;
+}
+
+.card-img img:hover {
+    transform: scale(1.1);
+    transition: .8s;
+}
+
+.service-list {
+    text-align: center;
+}
+
+.service {
+    text-align: center;
+    list-style-type: none;
+}
+
+.service li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.service li:hover {
+    color: #AB7442;
+    border-bottom: 2px #AB7442 solid;
+}
+
+.service-img img {
+    width: 100%;
+    transition: .8s;
+}
+
+.service-img {
+    overflow: hidden;
+    position: relative;
+}
+
+.service-img img:hover {
+    transform: scale(1.1);
+    transition: .8s;
+}
+
+/* .text{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.overlay{
+    opacity: 0;
+    background-color: rgba(53, 53, 53, .7);
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+.service-card:hover .overlay{
+    opacity: 1;
+} */
+.service-card {
+    text-align: start;
+    padding-bottom: 20px;
+}
+
+.service-card p {
+    font-size: large;
+    font-weight: bold;
+    color: #AB7442;
+    padding: 15px 0 5px 0;
+}
+
+.s-form input {
+    width: 100%;
+    height: 55px;
+    border: 0;
+    background-color: white;
+}
+
+.s-form select {
+    width: 100%;
+    height: 55px;
+    border: 0;
+    background-color: white;
+}
+
+.s-form textarea {
+    width: 100%;
+    height: 55px;
+    border: 0;
+    background-color: white;
+}
+
+.btn-s {
+    height: 55px;
+    background-color: #AB7442;
+    color: white;
+    border: 0;
+}
+
+.btn-s:hover {
+    background-color: #ae7c4d;
+}
+
+.four-cards {
+    text-align: center;
+}
+
+.card-4 {
+    overflow: hidden;
+}
+
+.card-4 img {
+    width: 100%;
+    transition: .8s;
+}
+
+.four-cards:hover .card-4 img {
+    transform: scale(1.1);
+    transition: .8s;
+}
+
+.footer {
+    background-image: url(../image/footer.jpg);
+    background-size: cover;
+    height: auto;
+}
+
+.footer-icon span {
+    font-size: 18px;
+    padding: 5px;
+}
+
+.footer-list {
+    color: white;
+}
+
+.footer-list ul {
+    padding: 0 15px;
+}
+
+.footer li {
+    padding: 8px 0;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.footer-list a:hover {
+    color: #AB7442;
+}
+
+.email-box input {
+    border: 0;
+    width: 175px;
+}
+
+.email-box {
+    background-color: white;
+    width: 254px;
+    height: 50px;
+}
+
+.email-box button {
+    text-align: end;
+    width: 60px;
+    margin: 5px;
+    height: 40px;
+    border: 0;
+    color: white;
+    background-color: #b88555;
+}
+
+.copy-right {
+    border-top: 1px solid #525252;
+    color: white;
+    height: 50px;
+}
+
+
+/* socail media icon */
+.fa {
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    color: #AB7442;
+}
+
+.s:hover {
+    background-color: white;
+}
+
+.s {
+    border: 1px solid white;
+    margin: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+.s-icons {
+    background: transparent;
+    color: white;
+}
+
+.s-icons a {
+    padding: 0 !important;
+}
+
+/* end socail media icon */
+
+
+
+/* small carousel */
+
+
+.h {
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    margin: 30px 0 60px;
+}
+
+.col-center {
+    margin: 0 auto;
+    float: none !important;
+}
+
+.small-carousel {
+    padding: 0 70px;
+}
+
+.small-carousel .carousel-item {
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    min-height: 290px;
+}
+
+.small-carousel .carousel-item .img-box {
+    width: 135px;
+    height: 135px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+.small-carousel .img-box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+}
+
+.small-carousel .testimonial {
+    padding: 30px 0 10px;
+}
+
+.small-carousel .overview {
+    text-transform: uppercase;
+    color: #000;
+}
+
+.small-carousel-control-prev,
+.carousel-control-next {
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+    background: none;
+}
+
+.small-carousel-control-prev i,
+.carousel-control-next i {
+    font-size: 68px;
+    line-height: 42px;
+    position: absolute;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+
+.small-carousel-indicators {
+    bottom: -40px;
+}
+
+.small-carousel-indicators li,
+.carousel-indicators li.active {
+    width: 12px;
+    height: 12px;
+    margin: 1px 3px;
+    border-radius: 50%;
+    border: none;
+}
+
+.small-carousel-indicators li {
+    background: #999;
+    border-color: transparent;
+    box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.small-carousel-indicators li.active {
+    background: #555;
+    box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* end small carousel */
+
+.page-img{
+    /* background: url(https://jinukrishnan.github.io/wood/img/carousel-1.jpg);
+    background-size: cover;
+     */
+    
+    background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(https://jinukrishnan.github.io/wood/img/carousel-1.jpg) center center no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+.page-img h1{
+    font-size: 70px;
+    font-weight: bolder;
+}
+.page-img ul{
+    margin: 0;
+    padding: 0;
+}
+.page-img li{
+    display: inline;
+    margin-left: 0;
+    margin-right: 5px;
+}
+.page-img a{
+    text-decoration: none;
+    color: white;
+}
+.error{
+    text-align: center;
+}
+.error span{
+    font-size: 100px;
+    color: #AB7442;
+}
+.error h1{
+    font-size: 80px;
+    font-weight: bolder;
+}
+.error h2{
+    font-size: 60px;
+}
+.error h5{
+    font-weight: lighter;
+}
+.map{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (min-width:992px) {
+    .top-bar-body {
+        background-color: #f5f5f5;
+    }
+
+    .top-bar p {
+        padding-top: 10px;
+    }
+
+    .top-bar span {
+        color: #AB7442;
+        font-size: large;
+    }
+
+    .get {
+        width: 180px;
+        height: 65px;
+        background-color: #AB7442;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .get:hover {
+        background-color: #c89464;
+        color: white;
+    }
+
+    .get a {
+        color: white !important;
+        font-weight: bold;
+    }
+
+    .get span {
+        color: white !important;
+    }
+
+    .carousel-container-child {
+        position: absolute;
+        top: 30%;
+        transition: (-50%, 50%);
+    }
+
+    .carousel-container-child h1 {
+        font-size: 70px;
+        font-weight: bold;
+    }
+
+    .btn-1 {
+        height: 60px;
+        width: 160px;
+        background-color: #AB7442;
+        border: 0;
+        color: white;
+        margin: 10px 5px;
+    }
+
+    .btn-1:hover {
+        background-color: #bb895a;
+    }
+
+    .btn-2 {
+        border: 0;
+        height: 60px;
+        width: 160px;
+        margin: 10px 5px;
+    }
+
+    .card-icon {
+        width: 100%;
+    }
+
+    .icons {
+        padding: 20px;
+        color: #AB7442;
+        font-size: 65px;
+    }
+
+    .card-icon h2 {
+        font-size: 80px;
+        color: rgb(228, 228, 228);
+    }
+
+    .card-head {
+        padding: 0 20px;
+    }
+
+    .c-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card-icons {
+        width: 70px;
+        margin: 5px 25px 5px 0;
+        background-color: white;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+    .top-bar-body {
+        display: none;
+    }
+
+    .get {
+        display: none;
+    }
+
+    .carousel-container-child {
+        position: absolute;
+        top: 15%;
+        transition: (-50%, 50%);
+    }
+
+    .carousel-container-child h1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .btn-1 {
+        height: 50px;
+        width: 150px;
+        background-color: #AB7442;
+        border: 0;
+        color: white;
+        margin: 10px 5px;
+    }
+
+    .btn-1:hover {
+        background-color: #bb895a;
+    }
+
+    .btn-2 {
+        border: 0;
+        height: 50px;
+        width: 150px;
+        margin: 10px 5px;
+    }
+
+    .card-icon {
+        width: 100%;
+    }
+
+    .icons {
+        padding: 20px;
+        color: #AB7442;
+        font-size: 45px;
+    }
+
+    .card-icon h2 {
+        font-size: 60px;
+        color: rgb(228, 228, 228);
+    }
+
+    .card-head {
+        padding: 0 20px;
+    }
+
+    .c-img img {
+        width: 90%;
+        height: 100%;
+    }
+
+    .c-img {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width:300px) and (max-width:767.98px) {
+    .top-bar-body {
+        display: none;
+    }
+
+    .get {
+        display: none;
+    }
+
+    .carousel-container-child {
+        position: absolute;
+        top: 1%;
+        transition: (-50%, 50%);
+    }
+
+    .carousel-container-child h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .btn-1 {
+        height: 30px;
+        width: 100px;
+        background-color: #AB7442;
+        border: 0;
+        color: white;
+        margin: 10px 5px;
+    }
+
+    .btn-1:hover {
+        background-color: #bb895a;
+    }
+
+    .btn-2 {
+        border: 0;
+        height: 30px;
+        width: 100px;
+        margin: 10px 5px;
+    }
+
+    .card-icon {
+        width: 100%;
+    }
+
+    .icons {
+        padding: 20px;
+        color: #AB7442;
+        font-size: 40px;
+    }
+
+    .card-icon h2 {
+        font-size: 50px;
+        color: rgb(228, 228, 228);
+    }
+
+    .card-head {
+        padding: 0 20px;
+    }
+
+    .c-img img {
+        width: 90%;
+        height: 100%;
+    }
+
+    .c-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .email-box input {
+        border: 0;
+        width: 80% !important;
+    }
+
+    .email-box {
+        background-color: white;
+        width: 90%;
+        height: 50px;
+    }
+
+    .email-box button {
+        text-align: end;
+        width: 50px;
+        font-size: small;
+        height: 40px;
+        border: 0;
+        color: white;
+        background-color: #b88555;
+    }
+}
